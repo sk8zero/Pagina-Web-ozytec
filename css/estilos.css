@@ -1,0 +1,466 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+/*Cuerpo*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  background: #3498db;
+  font-size: 1em;
+  line-height: 1.5em;
+  box-sizing: border-box;
+}
+/*Fin Cuerpo*/
+/**/ /**/
+
+
+/* Y por Ãºltimo, con esto estilizaremos el pie de pÃ¡gina:*/
+.main .articles article {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.separador img .img-1 {
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  /*Logo del articulo 1*/
+  width: 100px;
+  height: 100px;
+}
+
+.productos {
+  /*TamaÃ±o de los productos*/
+  width: 90%;
+}
+
+.img-producto {
+  /*imagenes de los productos*/
+  width: 100%;
+  border-radius: 4px;
+  max-width: 700px;
+}
+
+header,
+.main,
+footer {
+  width: 100%;
+  max-width: 1300px;
+  margin: 10px auto 0px;
+}
+
+/*Logo de marcas*/
+.main .articles .marcas {
+  text-align: center;
+}
+
+.marcas .Marca {
+  width: 25%;
+  margin: 10px;
+}
+/*Aqui termina*/
+
+img {
+  max-width: 100%;
+}
+
+/*Aqui el efecto de la tarjeta de descarga de la app OZYTec*/
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.card {
+  width: 80%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+  text-align: center;
+  max-height: 900px;
+  max-width: 800px;
+}
+
+.card .contenido {
+  text-align: center;
+  padding: 15px;
+}
+
+.card .contenido p {
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card .contenido h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.card .contenido a {
+  text-decoration: none;
+  display: inline block;
+  padding: 10px;
+  margin-top: 20px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card .contenido a:hover {
+  background: #2fb4cc;
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.ima {
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.main .articles .articulo-descarga {
+  background: #3498db;
+}
+/*Aqui termina*/
+
+.precentacion-2 .caja-2 {
+  width: 60%;
+  text-align: center;
+  justify-content: center;
+  margin: auto auto;
+}
+
+/*Articulo 1*/
+.main .articles .arcticulo-preceintacion {
+  background: #3498db;
+}
+
+.precentacion {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background: url("../img/Fondos/perchek-industrie-000KeyrTVg8-unsplash.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+  max-height: 400px;
+  height: 300px;
+  background-attachment: scroll;
+}
+
+.precentacion-2 {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background: url("../img/ozonizer1y2.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+  max-height: 400px;
+  height: 250px;
+}
+
+.precentacion .caja-1 {
+  width: 60%;
+}
+
+.caja-1 {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: auto auto;
+}
+
+.precentacion .caja-1 .caja-texto h2 {
+  font-weight: 100;
+  margin-top: 10px;
+  font-size: 40px;
+  color: #17202a;
+  text-transform: uppercase;
+}
+
+.precentacion .caja-1 .caja-texto p {
+  font-size: 18px;
+  color: #17202a;
+}
+
+.precentacion-2 .caja-2 .caja-texto h2 {
+  font-weight: 100;
+  font-size: 40px;
+  color: #fdfefe;
+  text-transform: uppercase;
+  font-style: oblique;
+}
+
+.precentacion .caja-1 .caja-texto p {
+  font-size: 18px;
+  color: #fdfefe;
+  text-transform: uppercase;
+  font-style: oblique;
+}
+
+.main .articles .arcticulo-precentacion {
+  padding: 0% 0% 0% 0%;
+  text-align: center;
+}
+
+.main .articles .arcticulo-precentacion h2 {
+  font-size: 25px;
+  color: #fdfefe;
+  font-style: oblique;
+}
+
+/*Fin Articulo 1*/
+/**/ /**/
+.articulo-descarga .container .card .txt {
+  /*Texto De la carta de descarga atributo al Creador*/
+  color: rgb(0, 0, 0);
+}
+
+/*Informacion.html Aqui enpeiza*/
+.main .articles .title-ozono{
+  text-align: center;
+  background: #1c2833;
+  color: #fdfefe;
+  height: 70px;
+  padding-top: 15px;
+  display: flex;
+}
+
+.title-ozono h1 {
+  font-size: 30px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.espacio {
+  margin-left: 20px;
+}
+/*Aqui termina*/
+
+/*Productos*/
+.container-producto {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.card-producto {
+  width: 95%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+  text-align: center;
+  max-height: 900px;
+  max-width: 1000px;
+}
+
+.card-producto .contenido {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-producto .contenido p {
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card-producto .contenido h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.card-producto .contenido a {
+  text-decoration: none;
+  display: inline block;
+  padding: 10px;
+  margin-top: 20px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card-producto .contenido a:hover {
+  background: #2fb4cc;
+  color: white;
+}
+
+.card-producto:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.ima-producto {
+  width: 100%;
+  max-height: 500px;
+  margin: 0%;
+}
+
+.main .articles .articulo-descarga {
+  background: #3498db;
+}
+
+.main .articles .precio {
+  /*Precio de los productos*/
+  text-align: right;
+  color: #2ecc71;
+}
+/*fin*/
+
+#industria {
+  text-align: center;
+  background: #17202a;
+  height: 60px;
+  padding-top: 30px;
+}
+
+#industria h2 {
+  color: #eaecee;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/**/
+.tarjeta img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.tarjeta {
+  justify-content: center;
+  width: 95%;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  text-align: center;
+}
+
+.tarjeta h2 {
+  font-size: 30px;
+  color: #aaa;
+}
+
+.subtitulo {
+  color: #ccc;
+  text-align: left;
+  text-decoration: overline;
+}
+
+.parrafo {
+  line-height: 30px;
+  color: #808080;
+  text-align: left;
+}
+/**/
+
+#YT-box {
+  width: 100%;
+  justify-content: center;
+}
+
+#box {
+  margin: 0px 0px;
+}
+
+.container-body h2 {
+  color: #fff;
+}
+
+.container-body p {
+  color: #bdbdbd;
+}
+
+.container-body label {
+  color: #e0e0e0;
+}
+
+@media (max-width: 400px) {
+  .logo-p {
+    height: 80px;
+    width: 140px;
+  }
+
+  .articles .marcas .Marca {
+    width: 50%;
+  }
+}
+
+.container-body hr {
+  color: #fff;
+  width: 100%;
+  font-size: 1px;
+}
+
+article .tarjeta .nucleos li {
+  list-style: none;
+}
+/**/
+.col .card img {
+  width: 100%;
+  height: 300px;
+}
+
+.col .card {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0%;
+}
+
+.col {
+  padding: 0%;
+}
+.card {
+  padding: 0;
+  margin: 0%;
+}
+.col .card a {
+  text-decoration: none;
+  display: inline block;
+  padding: 10px;
+  margin-top: 20px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.col .card a:hover {
+  background: #2fb4cc;
+  color: white;
+}
+/**/
+
+/**/
+#ozono {
+  background: url("../img/Fondos/boban-simonovski-SNDERbAzP-o-unsplash.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  color: #c7c7c7;
+}
+/**/
