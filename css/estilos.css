@@ -1,6 +1,7 @@
 *{
   margin: 0%;
   padding: 0%;
+  font-family: "Roboto", sans-serif;
 }
 /*Cuerpo*/
 body {
@@ -161,8 +162,8 @@ img {
   background-size: 100%;
   background-position: center;
   background-repeat: repeat-y;
-  max-height: 400px;
-  height: 300px;
+  max-height: 420px;
+  height: 320px;
   background-attachment: scroll;
 }
 
@@ -237,7 +238,7 @@ img {
 }
 
 /*Informacion.html Aqui enpeiza*/
-.main .articles .title-ozono{
+ .title-ozono{
   text-align: center;
   background: #1c2833;
   color: #fdfefe;
@@ -336,8 +337,8 @@ img {
 #industria {
   text-align: center;
   background: #17202a;
-  height: 60px;
-  padding-top: 30px;
+  height: 80px;
+  padding-top: 18px;
 }
 
 #industria h2 {

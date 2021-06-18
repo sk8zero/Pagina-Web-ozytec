@@ -18,38 +18,41 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/footer.css" />
 
     <!-- google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
 <body>
-	
-	<header id="main-header">
-		
-		<a id="logo-header" href="index.html">
-			<span class="site-name"><img class="logo-p" src="../img/ozytec.jpg" alt="logo"></span>
-		</a> <!-- / #logo-header -->
+    
+    <header>
+        <div class="topnav" id="myTopnav">
+          <a class="active" href="../img/ozytec.png">
+            <span class="site-name"
+              ><img class="logo-p" src="../img/ozytec.png" alt="logo"
+            /></span>
+          </a>
+          <a href="../index.html">Inicio</a>
+          <a href="../html5/Productos.html">Productos</a>
+          <a href="../html5/informacion.html">Ozono</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          </div>
+          <script src="../menu.js"></script>
+        </header>
 
-		<nav>
-			<ul>
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="Productos.html">Productos</a></li>
-				<li><a href="informacion.html">Ozono</a></li>
-			</ul>
-		</nav><!-- / nav -->
-
-    </header><!-- / #main-header -->
     <section class="main">
         <section class="articles">
 
-            <div class="title-ozono">
+        <!-- <div class="title-ozono">
              <h1>Información del Ozono</h1>
-            </div>
+             </div>-->
 
             <article id="ozono">
                     <h2>¿Qué es el Ozono?</h2>  

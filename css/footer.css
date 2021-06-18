@@ -25,7 +25,7 @@
   
   .colum2 {
     max-width: 400px;
-    width: 50%;
+    width: 60%;
     margin-right: 10px;
     margin: 30px;
   }
@@ -41,6 +41,7 @@
   .colum2 .row {
     margin-top: 20px;
     display: flex;
+    width: 100%;
   }
   
   .row img {
