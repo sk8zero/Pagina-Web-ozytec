@@ -19,28 +19,37 @@
         
     <!--CSS-->
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 	
-	<header id="main-header">
-		
-		<a id="logo-header" href="index.html">
-			<span class="site-name"><img class="logo-p" src="../img/ozytec.jpg"></span>
-		</a> <!-- / #logo-header -->
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a class="active" href="../img/ozytec.png">
+        <span class="site-name"
+          ><img class="logo-p" src="../img/ozytec.png" alt="logo"
+        /></span>
+      </a>
+      <a href="../index.html">Inicio</a>
+      <a href="../html5/Productos.html">Productos</a>
+      <a href="../html5/informacion.html">Ozono</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      </div>
+      <script src="../js/menu.js"></script>
+    </header>  
 
-		<nav>
-			<ul>
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="Productos.html">Productos</a></li>
-				<li><a href="informacion.html">Ozono</a></li>
-			</ul>
-		</nav><!-- / nav -->
-
-    </header><!-- / #main-header -->
     <section class="main">
         <section class="articles">
 
@@ -53,7 +62,7 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="../img/ozonizer1y2.jpg" class="d-block w-100" alt="...">
+                        <img src="../img/ozx19-1-nucleo.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                     
                         </div>
@@ -84,16 +93,16 @@
 
          <article> 
             <div class="tarjeta">        
-                <h2>Equipos OZX19</h2>
+                <h2>OZX19</h2>
                 <h3 class="subtitulo">Diseño Propio<br> Industria Nacional<br> 100% Amigable</h3>
                 <p class="parrafo"> Caracteristicas: <br> 
                     Equipo 100% seguro construido con materiales de calidad aislantes y auto extinguible <br>
                     Contiene Tecnologia PLC(Program Logic Controller)<br>
-                    Cuenta con <a href="index.html">aplicación</a> porpia de encendido y apagado por BlueTooth <br>
+                    Cuenta con aplicación porpia de encendido y apagado por BlueTooth <br>
                     Emite plata coloidal <br>
                     En atmosfera controlada de Ozono <br>
                  </p>
-                 <p class="precio">Desde U$D 500</p>
+                 <p class="precio">U$D 550</p>
             </div>
  </article>
 
@@ -115,6 +124,12 @@
                 <hr>
                 <p>Nosotros trabajamos bajo pedido y con limite de stock.</p>         </div>
             
+                <div class="colum2">
+                  <h2>Trabajamos con</h2>
+        
+                  <img src="img/iconos/mercado-pago.png" alt="icono" />
+                </div>
+
             <div class="colum2">
                 <h2>informacion de contacto</h2>
                 <hr>
