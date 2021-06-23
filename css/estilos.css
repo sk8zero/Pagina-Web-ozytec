@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   font-family: "Roboto", sans-serif;
@@ -16,7 +16,6 @@ body {
 }
 /*Fin Cuerpo*/
 /**/ /**/
-
 
 /* Y por Ãºltimo, con esto estilizaremos el pie de pÃ¡gina:*/
 .main .articles article {
@@ -52,7 +51,7 @@ header,
 .main,
 footer {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1600px;
   margin: 10px auto 0px;
 }
 
@@ -238,7 +237,7 @@ img {
 }
 
 /*Informacion.html Aqui enpeiza*/
- .title-ozono{
+.title-ozono {
   text-align: center;
   background: #1c2833;
   color: #fdfefe;
